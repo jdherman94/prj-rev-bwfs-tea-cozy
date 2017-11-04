@@ -1,0 +1,189 @@
+
+/* header*/
+a:link {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity:.9;
+}
+a:visited {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity:.9;
+}
+
+
+header {
+  z-index: 100;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin-left: -8px;
+  margin-top: -7px;
+  background-color: black;
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+  position: relative;
+  top:9.5px;
+  left:10px;
+  color: seashell;
+}
+
+.logobox {
+  flex-grow:1;
+}
+.links {
+  position: relative;
+  top: 23.5px;
+}
+
+.link {
+  display: inline-block;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+/*container*/
+.container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  margin: 0px -50px;
+
+
+}
+/*ImageContainerA*/
+.image-container-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  left: -0px;
+  top: 51px;
+  margin-bottom: 51px;
+  margin-top: 12px;
+}
+.midbar {
+  width: 100%;
+  background-color: black;
+}
+
+.OurMission,
+.Handpicked {
+  text-align: center;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: .9;
+
+
+}
+
+/*ImageContainerB*/
+.image-container-b {
+  flex-direction: column;
+  align-items: center;
+}
+
+.TeaofMonth,
+.WhatsSteeping {
+  text-align: center;
+  font-family: Helvetica;
+  color: seashell;
+  opacity:.9;
+}
+.image-container-b-subcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+
+
+
+.img-Fall,
+.img-Spiced,
+.img-Seasonal,
+.img-Myrtle,
+.img-Bedford {
+  height: 200px;
+  width: 300px;
+  margin: 0px 10px;
+}
+
+.Fall,
+.Spiced,
+.Seasonal,
+.Myrtle,
+.Bedford {
+  text-align: center;
+  font-family: Helvetica;
+  color: seashell;
+  opacity:.9;
+  position: relative;
+  top: -16px;
+}
+/*ImageContainerC*/
+.image-container-c {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 570px;
+  width: 1200px;
+
+}
+.Locations {
+  text-align: center;
+  font-family: Helvetica;
+  color: seashell;
+  position: relative;
+  top: 50px;
+}
+.locations-list {
+  display: flex;
+  justify-content: center
+}
+
+.Downtown-Div,
+.EastBayside-Div,
+.Oakdale-Div {
+  background: black;
+  margin: 40px;
+  width: 300px;
+  height: 300px;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*ContainerD*/
+.container-d {
+  height: 200px;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+}
+/*Footer*/
+footer {
+
+  font-family: Helvetica;
+  color: seashell;
+  text-align: left;
+  background-color: black;
+  width: 100%;
+  margin-left: 84px;
+  opacity: .9;
+  padding-left: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
